@@ -22,11 +22,7 @@
     font-weight: 600;
     font-size: 22px;
 }
-.user-component__subtitle{
-    color: rgba(0,0,0,0.5);
-    margin-top: 8px;
-    font-size: 17px;
-}
+
 .user-component__avatar--sm{
     width: 60px;
     height: 60px;
@@ -44,4 +40,16 @@
 .user-component__time{
     display: block;
     margin-bottom: 15px;
+}
+.user-component__subtitle-complex{
+    display: flex;
+    align-items: center;
+    color: rgba(0,0,0,0.5);
+    margin-top: 8px;
+    font-size: 17px;
+}
+.user-component__subtitle-complex__info{
+    color: red;
+    opacity: 0.5;
+    margin-left: 4px;
 }
